@@ -8,9 +8,10 @@ This project is a Django-based payment system using SSLCOMMERZ for handling tran
 - Handle payment success, failure, and cancellation
 - Process IPN notifications for transaction validation
 - Environment variable configuration for sensitive settings
-
 ## Prerequisites
-
+```
+pip install sslcommerz-lib
+```
 - Python 3.x
 - Django 3.x or higher
 - SSLCOMMERZ account for payment processing
